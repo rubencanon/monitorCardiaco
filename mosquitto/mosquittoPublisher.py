@@ -16,7 +16,7 @@ def on_message(client, userdata, message):
 	print('topic: %s' % message.topic)
 	print('payload: %s' % message.payload)
 	print('qos: %d' % message.qos)
-
+#main
 def main():
     broker='10.152.183.231'
     port=1883
