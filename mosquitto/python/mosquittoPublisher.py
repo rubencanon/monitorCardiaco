@@ -18,7 +18,7 @@ def on_message(client, userdata, message):
 	print('qos: %d' % message.qos)
 #main
 def main():
-    broker='10.152.183.231'
+    broker='127.0.0.1'
     port=1883
     topic='casa/cocina/nevera'
 

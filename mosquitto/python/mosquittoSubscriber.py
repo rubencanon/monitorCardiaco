@@ -16,7 +16,7 @@ def main():
 	client = paho.mqtt.client.Client(client_id='albert-subs', clean_session=False)
 	client.on_connect = on_connect
 	client.on_message = on_message
-	client.connect(host='10.152.183.231', port=1883)
+	client.connect(host='127.0.0.1', port=1883)
 	client.loop_forever()
 
 if __name__ == '__main__':
